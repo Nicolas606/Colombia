@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+header{
+  background-color: #021823 ;
+  }
+
+header ul li a{
+  color:white;
+  font-size: 20px;
+}
+
+.Home a:hover{
+  color: rgba(28, 189, 181, 0.739)
+}
+
+.Tweets a:hover{
+  color: yellow;
+}
+
+.Major_cities a:hover{
+  color: blue;
+}
+
+.Food a:hover{
+  color: red;
+}
+
+
+
+header img{
+  height: 100px;
+}
+
+article{
+  flex: 2;
+  background-color: #ffffe5;
+}
+
+.conteiner-article-index h1{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.conteiner-article-index h2{
+  text-align: center;
+}
+
+.conteiner-article-index p{
+  text-align: justify;
+  font-size: 120%;
+}
+
+.conteiner-article-index-symbols a{
+  text-decoration: none;
+  color: rgb(236, 165, 58);
+}
+.conteiner-article-index-symbols a:hover{
+  color: rgb(116, 50, 50);
+}
+
+.conteiner-article-tweets{
+  background-color: #ffffe5;
+  padding-left: 100px;
+}
+
+.conteiner-article-tweets h1{
+  text-align: justify ;
+  margin-bottom: 70px;
+
+  
+}
+
+.conteiner-city h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.conteiner-city h1 a{
+  text-decoration: none;
+  color: black;
+}
+
+.conteiner-city h1 a:hover{
+  color: blue;
+}
+
+.conteiner-city img{
+  width: 80%;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.conteiner-city p{
+  text-align: justify;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.conteiner-food {
+  border-bottom: 1px solid black;
+  padding-bottom: 30px ;
+}
+
+.conteiner-food h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.conteiner-food h2{
+  text-align: center;
+}
+
+.conteiner-food a{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(243, 113, 96);
+}
+
+.conteiner-food a:hover{
+  color: red;
+}
+
+.conteiner-food img{
+  width: 80%;
+  margin-left: 70px ;
+  margin-bottom: 15px;
+
+}
+
+aside{
+  flex: 1;
+}
+
+footer{
+  background-color:  #021823 ;
+  height: 60px
+}
+
+footer h3{
+  font-size: 15px;
+  text-align: right;
+  color: white;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(236, 41, 41);
+}
+footer a:hover{
+  color: rgb(83, 42, 149);
+}
